@@ -23,7 +23,7 @@ const quotes = [
 // above are my quote arrays
 const motivation = () => {
   let randomNumber = Math.floor(Math.random() * (quotes.length));
-document.getElementById("quoteDisplay").innerHTML = quotes[randomNumber];
+  return quotes[randomNumber];
 };
 
 module.exports = motivation;
